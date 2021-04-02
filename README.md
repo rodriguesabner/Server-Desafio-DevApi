@@ -18,6 +18,8 @@ yarn generate-data
 npm run generate-data
 ```
 
+![Peek-2021-04-02-17-31](https://user-images.githubusercontent.com/40338524/113451915-5baa3600-93d9-11eb-9243-8505bdb73acf.gif)
+
 ## Rodando o servidor
 
 Após gerar o primeiro script, você está apto a rodar o servidor. Para rodar é simples, basta utilizar o comando:
