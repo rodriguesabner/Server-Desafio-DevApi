@@ -5,8 +5,8 @@ Content-Type: application/json; charset=utf-8
 Accept: application/json
 
 {
-  "email": "abnerodrigs@gmail.com",
-  "password": "1234"
+  "email": "email@gmail.com",
+  "password": "password"
 }
 
 ### Register - Public Route
@@ -15,28 +15,28 @@ Content-Type: application/json; charset=utf-8
 Accept: application/json
 
 {
-  "email": "abnerodrigs@gmail.com",
-  "password": "1234",
-  "username": "rodriguesabner"
+  "email": "email@gmail.com",
+  "password": "password",
+  "username": "password"
 }
 
 ### Conector
 ### Get Conectors - Private Route
 GET http://localhost:21500/api/conector
 Content-Type: application/json; charset=utf-8
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjcxMH0.Xvt7uOfrrwQ7CjAkuUpw9_5mJC6H20hH93D0uwh2fDk
+Authorization: Bearer {{token}}
 
 ### Find Conector By Query - Private Route (query: private)
 GET http://localhost:21500/api/conector/private
 Content-Type: application/json; charset=utf-8
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjcxMH0.Xvt7uOfrrwQ7CjAkuUpw9_5mJC6H20hH93D0uwh2fDk
+Authorization: Bearer {{token}}
 
 ### Update Conector By id - Private Route (param: id)
 ### Você pode passar qualquer dado que queira atualizar
 ### Se for só o nome, passe "name": "novoNome".
 PUT http://localhost:21500/api/conector/606749184739eb9bca03764d
 Content-Type: application/json; charset=utf-8
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjQyMH0.Ph9da0Rug984Q7H20TyhSHeKcw8WlifrzLVixPuW27g
+Authorization: Bearer {{token}}
 Accept: application/json
 
 {
@@ -46,7 +46,7 @@ Accept: application/json
 ### Create Conector - Private Route
 POST http://localhost:21500/api/conector
 Content-Type: application/json; charset=utf-8
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjQyMH0.Ph9da0Rug984Q7H20TyhSHeKcw8WlifrzLVixPuW27g
+Authorization: Bearer {{token}}
 Accept: application/json
 
 {
@@ -63,4 +63,4 @@ Accept: application/json
 ### Delete Conector - Private Route
 DELETE http://localhost:21500/api/conector/606749184739eb9bca03764d
 Content-Type: application/json; charset=utf-8
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjQyMH0.Ph9da0Rug984Q7H20TyhSHeKcw8WlifrzLVixPuW27g
+Authorization: Bearer {{token}}
