@@ -1,3 +1,4 @@
+![Peek 2021-04-02 17-25](https://user-images.githubusercontent.com/40338524/113451501-79c36680-93d8-11eb-8747-531893a82852.gif)
 # Conector API
 
 Este projeto consiste em criar uma API para o portal web da DevApi.
@@ -58,6 +59,9 @@ middleware detecta se o Authorization está presente.
 ## Rotas
 
 [Aqui](requests.http) você encontra a relação de rotas presentes no servidor.
+
+Demonstração
+![Peek 2021-04-02 17-25](https://user-images.githubusercontent.com/40338524/113451513-7def8400-93d8-11eb-9de2-ab38ecff3c99.gif)
 
 ### Autor
 
