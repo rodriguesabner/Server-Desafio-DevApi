@@ -1,0 +1,66 @@
+### User
+### Login - Public Route
+POST http://localhost:21500/api/user/login
+Content-Type: application/json; charset=utf-8
+Accept: application/json
+
+{
+  "email": "abnerodrigs@gmail.com",
+  "password": "1234"
+}
+
+### Register - Public Route
+POST http://localhost:21500/api/user/register
+Content-Type: application/json; charset=utf-8
+Accept: application/json
+
+{
+  "email": "abnerodrigs@gmail.com",
+  "password": "1234",
+  "username": "rodriguesabner"
+}
+
+### Conector
+### Get Conectors - Private Route
+GET http://localhost:21500/api/conector
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjcxMH0.Xvt7uOfrrwQ7CjAkuUpw9_5mJC6H20hH93D0uwh2fDk
+
+### Find Conector By Query - Private Route (query: private)
+GET http://localhost:21500/api/conector/private
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjcxMH0.Xvt7uOfrrwQ7CjAkuUpw9_5mJC6H20hH93D0uwh2fDk
+
+### Update Conector By id - Private Route (param: id)
+### Você pode passar qualquer dado que queira atualizar
+### Se for só o nome, passe "name": "novoNome".
+PUT http://localhost:21500/api/conector/606749184739eb9bca03764d
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjQyMH0.Ph9da0Rug984Q7H20TyhSHeKcw8WlifrzLVixPuW27g
+Accept: application/json
+
+{
+  "type": "REST"
+}
+
+### Create Conector - Private Route
+POST http://localhost:21500/api/conector
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjQyMH0.Ph9da0Rug984Q7H20TyhSHeKcw8WlifrzLVixPuW27g
+Accept: application/json
+
+{
+  "name": "Abner Rodrigues",
+  "type": "BD",
+  "privacy": "private",
+  "base_url": "https://github.com/kingaspx",
+  "logo_url": "https://github.com/kingaspx.png",
+  "category": "Fullstack",
+  "description": "Um dev maneiro e dedicado ;)",
+  "status": true
+}
+
+### Delete Conector - Private Route
+DELETE http://localhost:21500/api/conector/606749184739eb9bca03764d
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjc1MzM5OWM5NmFkYWFhMjk3ZmVkOSIsImlhdCI6MTYxNzM4NjQyMH0.Ph9da0Rug984Q7H20TyhSHeKcw8WlifrzLVixPuW27g
