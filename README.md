@@ -1,4 +1,3 @@
-![Peek 2021-04-02 17-25](https://user-images.githubusercontent.com/40338524/113451501-79c36680-93d8-11eb-8747-531893a82852.gif)
 # Conector API
 
 Este projeto consiste em criar uma API para o portal web da DevApi.
