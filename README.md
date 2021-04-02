@@ -77,5 +77,5 @@ Demonstração
 Feito com ❤️ por Abner Rodrigues 👋🏽 Entre em contato!
 
 [![Twitter Badge](https://img.shields.io/badge/-@kingaspx-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/kingaspx)](https://twitter.com/kingaspx)
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/rodriguesabner/)
+[![Linkedin Badge](https://img.shields.io/badge/-Abner-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/rodriguesabner/)
 [![Gmail Badge](https://img.shields.io/badge/-abnerodrigs@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:abnerodrigs@gmail.com)](mailto:abnerodrigs@gmail.com)
